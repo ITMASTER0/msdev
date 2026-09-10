@@ -1,0 +1,14 @@
+# IT Master Portfolio - robots.txt
+# https://itmaster.dev/robots.txt
+
+User-agent: *
+Allow: /
+
+Sitemap: https://itmaster.dev/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 1
+
+# Disallow admin/non-public paths
+Disallow: /admin/
+Disallow: /api/
